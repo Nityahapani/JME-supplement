@@ -1,0 +1,18 @@
+grid R=60, 24001 pts: max N=3, N>=3 on nu in [0.396,0.414], single-type economies N=1,1
+grid R=60, 240001 pts: max N=3, N>=3 on nu in [0.396,0.414], single-type economies N=1,1
+grid R=150, 240001 pts: max N=3, N>=3 on nu in [0.396,0.414], single-type economies N=1,1
+grid-bisection band edges: 0.39538751256373883 0.414939268829969
+tangency solve (40 digits): band = [0.395388,0.414939]; double-root log-prices 0.4008, 3.1471
+mu_A=0.2: Cramer rate 0.10017
+   M=100: P=3.164e-06  -logP/M=0.12664
+   M=1000: P=7.232e-46  -logP/M=0.10394
+   M=3000: P=3.325e-133  -logP/M=0.10168
+mu_A=0.65: Cramer rate 0.11435
+   M=100: P=7.397e-07  -logP/M=0.14117
+   M=1000: P=3.622e-52  -logP/M=0.11845
+   M=3000: P=1.117e-151  -logP/M=0.11586
+critical case and just-outside case:
+   mu=lo ['1.582e-01', '3.878e-01', '5.027e-01', '5.006e-01']
+   mu=hi ['1.581e-01', '3.836e-01', '5.011e-01', '4.990e-01']
+   mu=lo-0.01 ['1.489e-01', '2.255e-01', '2.045e-02', '4.408e-11']
+inside the band (mu=0.405): [(10, 0.251), (30, 0.147), (100, 0.161), (300, 0.276), (1000, 0.459), (3000, 0.719), (10000, 0.954)]
