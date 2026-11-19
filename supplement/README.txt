@@ -20,7 +20,4 @@ the dual and primal values agree, and the relative constraint residual is below 
 Equilibrium counts are accepted only with (i) residual normalised by gross demand + endowment, (ii) Jacobian condition
 ratio above 1e-6, (iii) a price box, (iv) index sum = +1 where applicable.
 
-SUPERSEDED / NOT INCLUDED: my earlier exploratory scripts (unfiltered multi-start counters, early I-projection with an
-unconverged inner solver, scale-by-excess-demand counters) produced spurious multiplicity and are deliberately omitted.
-
  Exact-arithmetic check of Lemma 5.2 (L=2,3,4)  exact_independence.py  (a few seconds)
